@@ -407,10 +407,9 @@ header {
 }
 
 .concept_inner {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media screen and (max-width: 767px) {
@@ -419,7 +418,12 @@ header {
   }
 }
 
+.concept_pic {
+  width: 50%;
+}
+
 .concept_text {
+  width: 50%;
   text-align: left;
   padding: 20px;
 }

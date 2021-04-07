@@ -450,13 +450,17 @@ $drawer-content-width:200px;
   }
 //  コンセプト
 .concept_inner{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
+  display:flex;
   @include mq(sm){
     display: block;
   }
 } 
+.concept_pic{
+  width: 50%;
+}
 .concept_text{
+  width: 50%;
+  
   text-align: left;
   padding: 20px;
 }
