@@ -464,6 +464,7 @@ $drawer-content-width:200px;
 .card-items{
   display: flex;
   justify-content: space-between;
+  padding-left: 0;
   @include mq(sm){
     display: block;
     
