@@ -697,6 +697,17 @@ $drawer-content-width:200px;
 
   }
 }
+
+.contact-message{
+  color: #fff;
+  font-weight: bold;
+  display: none;
+  margin-top: 60px;
+  text-align: center;
+  &.-error{
+    color:#f00;
+  }
+}
 .fa-twitter{
   color:#00BFFF;
 }
