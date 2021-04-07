@@ -341,7 +341,6 @@ header {
 }
 
 .top {
-  margin-top: 70px;
   background: url("../img/bg.png") center center/100% no-repeat;
   background-size: cover;
   padding: 80px 40px;
@@ -697,8 +696,8 @@ header {
 
 .contact_footer .-submit {
   margin-top: 50px;
-  -webkit-transition: all .4s ease 0;
-  transition: all .4s ease 0;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }
 
 .contact_footer .-submit:hover {
