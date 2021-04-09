@@ -422,10 +422,22 @@ header {
   width: 50%;
 }
 
+@media screen and (max-width: 767px) {
+  .concept_pic {
+    width: 100%;
+  }
+}
+
 .concept_text {
   width: 50%;
   text-align: left;
   padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .concept_text {
+    width: 100%;
+  }
 }
 
 .card-items {

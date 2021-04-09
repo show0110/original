@@ -457,12 +457,19 @@ $drawer-content-width:200px;
 } 
 .concept_pic{
   width: 50%;
+  @include mq(sm){
+    width: 100%;
+  }
 }
 .concept_text{
   width: 50%;
   
   text-align: left;
   padding: 20px;
+  @include mq(sm){
+    width: 100%;
+    
+  }
 }
 // 特徴
 .card-items{
