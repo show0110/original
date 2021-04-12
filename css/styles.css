@@ -517,7 +517,7 @@ header {
 }
 
 .products-item:nth-of-type(2) .products-item-pic {
-  background-image: url("../img/img-top03.png");
+  background-image: url("../img/30daytraial.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 180px;
@@ -525,7 +525,7 @@ header {
 }
 
 .products-item:nth-of-type(3) .products-item-pic {
-  background-image: url("../img/local.png");
+  background-image: url("../img/standard.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 180px;
